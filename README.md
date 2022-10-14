@@ -10,7 +10,7 @@
   </p>
 
   <p align="center"> 
-    <a href="">Install now</a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=zernonia.supabase-vscode">Install now</a>
     ·
     <a href="https://github.com/zernonia/supabase-vscode-extension/issues">Report Bug</a>
     ·
@@ -25,6 +25,10 @@
 - 📖 Open Source
 - ⚡️ Navigation to Dashboard & Docs
 - ...
+
+### Command Pallet
+
+![Show Supabase commands](./assets/commmands.png)
 
 ## Contributing
 
