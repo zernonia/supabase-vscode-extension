@@ -7,7 +7,7 @@
   "version": "0.0.1",
   "publisher": "zernonia",
   "engines": {
-    "vscode": "^1.72.0"
+    "vscode": "^1.60.0"
   },
   "sponsor": {
     "url": "https://www.buymeacoffee.com/zernonia"
@@ -76,7 +76,7 @@
     "@types/glob": "^8.0.0",
     "@types/mocha": "^10.0.0",
     "@types/node": "16.x",
-    "@types/vscode": "^1.72.0",
+    "@types/vscode": "^1.60.0",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
     "@vscode/test-electron": "^2.1.5",

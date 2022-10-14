@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/zernonia/supabase-vscode-extension">
-    <img src="assets/logo.png" alt="Supabase's Logo" width="80">
+    <img src="./assets/logo.png" alt="Supabase's Logo" width="80">
   </a>
   <br />
 
