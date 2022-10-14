@@ -1,6 +1,8 @@
 {
   "name": "supabase-vscode",
-  "displayName": "supabase-vscode",
+  "icon": "assets/logo.png",
+  "commandName": "supabase-vscode",
+  "displayName": "Supabase (unofficial)",
   "description": "Speed up your development when using Supabase",
   "version": "0.0.1",
   "publisher": "zernonia",
@@ -13,13 +15,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zernonia/supabase-vscode"
+    "url": "https://github.com/zernonia/supabase-vscode-extension"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "workspaceContains:**/.env"
   ],
   "main": "./out/index.js",
   "contributes": {
