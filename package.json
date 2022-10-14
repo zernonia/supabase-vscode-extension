@@ -4,7 +4,7 @@
   "commandName": "supabase-vscode",
   "displayName": "Supabase (unofficial)",
   "description": "Speed up your development when using Supabase",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "zernonia",
   "engines": {
     "vscode": "^1.60.0"
