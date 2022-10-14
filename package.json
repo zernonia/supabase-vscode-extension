@@ -1,23 +1,64 @@
 {
-  "name": "supabase-vscode-extension",
-  "displayName": "supabase-vscode-extension",
+  "name": "supabase-vscode",
+  "displayName": "supabase-vscode",
   "description": "Speed up your development when using Supabase",
   "version": "0.0.1",
+  "publisher": "zernonia",
   "engines": {
     "vscode": "^1.72.0"
+  },
+  "sponsor": {
+    "url": "https://www.buymeacoffee.com/zernonia"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zernonia/supabase-vscode"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "onCommand:supabase-vscode-extension.helloWorld"
+    "*"
   ],
-  "main": "./out/extension.js",
+  "main": "./out/index.js",
   "contributes": {
     "commands": [
       {
-        "command": "supabase-vscode-extension.helloWorld",
-        "title": "Hello World"
+        "command": "supabase-vscode.goToWebsite",
+        "title": "⚡️ Supabase Website"
+      },
+      {
+        "command": "supabase-vscode.goToGuides",
+        "title": "⚡️ Supabase Guides"
+      },
+      {
+        "command": "supabase-vscode.goToReference",
+        "title": "⚡️ Supabase Docs Reference"
+      },
+      {
+        "command": "supabase-vscode.goToEditor",
+        "title": "⚡️ Supabase Dashboard: Table Editor"
+      },
+      {
+        "command": "supabase-vscode.goToAuth",
+        "title": "⚡️ Supabase Dashboard: Auth"
+      },
+      {
+        "command": "supabase-vscode.goToStorage",
+        "title": "⚡️ Supabase Dashboard: Storage"
+      },
+      {
+        "command": "supabase-vscode.goToSQL",
+        "title": "⚡️ Supabase Dashboard: SQL Editor"
+      },
+      {
+        "command": "supabase-vscode.goToEdgeFunction",
+        "title": "⚡️ Supabase Dashboard: Edge Function"
+      },
+      {
+        "command": "supabase-vscode.goToSettings",
+        "title": "⚡️ Supabase Dashboard: Settings"
       }
     ]
   },
@@ -30,16 +71,17 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.72.0",
     "@types/glob": "^8.0.0",
     "@types/mocha": "^10.0.0",
     "@types/node": "16.x",
+    "@types/vscode": "^1.72.0",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
+    "@vscode/test-electron": "^2.1.5",
     "eslint": "^8.24.0",
     "glob": "^8.0.3",
     "mocha": "^10.0.0",
-    "typescript": "^4.8.4",
-    "@vscode/test-electron": "^2.1.5"
-  }
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {}
 }
